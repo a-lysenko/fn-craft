@@ -1,0 +1,32 @@
+{
+  "name": "fn-craft",
+  "version": "0.0.1",
+  "description": "Functional representation of imperative statements used every day",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "reposiwtory": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/a-lysenko/fn-craft.git"
+  },
+  "keywords": [
+    "functional",
+    "helpers"
+  ],
+  "author": "o-lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a-lysenko/fn-craft/issues"
+  },
+  "homepage": "https://github.com/a-lysenko/fn-craft#readme",
+  "devDependencies": {
+    "@types/node": "^20.16.2",
+    "typescript": "^5.5.4"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}
