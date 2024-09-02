@@ -39,5 +39,29 @@ const result = fif(
 );
 ```
 
+### TypeScript
+`fif` is typed. You can use it with TypeScript as well.
+In previous examples, `result` types are perfectly inferred.
+
+```ts
+// returned type: string | boolean
+
+fif(
+  Math.random() > 0.5,
+  () => 'truthy',
+  () => false
+);
+```
+
+When `else` is omitted:
+```ts
+// result type is: string | undefined
+
+const result = fif(
+  Math.random() > 0.5,
+  () => 'truthy'
+);
+```
+
 # License
 [MIT](LICENSE)
