@@ -26,15 +26,16 @@ const phraseToSay = fif(
 
 ### `if` only example
 
-`else` branch is optional. If you don't need it, you can skip it:
+`else` branch is optional. Skip, if you don't need it, you can skip the branch:
 
 ```js
 import { fif } from 'fifel';
+
 const result = fif(
-  Math.random() > 0.5,
+  isHappy,
   () => {
     // some logic
-    return 'truthy';
+    return 'hooray';
   }
 );
 ```
@@ -47,7 +48,7 @@ In previous examples, `result` types are perfectly inferred.
 // returned type: string | boolean
 
 fif(
-  Math.random() > 0.5,
+  isHappy,
   () => 'truthy',
   () => false
 );
@@ -58,7 +59,7 @@ When `else` is omitted:
 // result type is: string | undefined
 
 const result = fif(
-  Math.random() > 0.5,
+  isHappy,
   () => 'truthy'
 );
 ```
