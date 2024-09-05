@@ -1,6 +1,6 @@
 {
   "name": "fn-craft",
-  "version": "0.0.3-0",
+  "version": "0.0.3-2",
   "description": "Functional representation of imperative statements used every day",
   "main": "dist/index.js",
   "scripts": {
