@@ -12,7 +12,6 @@
 
 Set of functional helpers to replace imperative statements. `"const over let"` fans are welcome and that's just the beginning! 😎
 
-
 # Table of contents
 - [Install](#install)
 - [Features](#features)
@@ -23,6 +22,7 @@ Set of functional helpers to replace imperative statements. `"const over let"` f
   - [`ftry` - Functional "try..catch..finally*"](#ftry---functional-trycatchfinally)
     - [`try..catch` example](#trycatch-example)
     - [`try..catch..finally` example](#trycatchfinally-example)
+    - [TypeScript](#typescript-1)
 - [License](#license)
 
 # Install
