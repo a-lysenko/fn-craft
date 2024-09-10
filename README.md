@@ -38,7 +38,7 @@ yarn add fn-craft
 ```
 
 # Typescript-first
-`ng-craft` is written in TypeScript and fully typed.
+`fn-craft` is written in TypeScript and fully typed.
 
 The package is primarily designed for TypeScript projects, offering complete type definitions to enhance type safety 
 and development efficiency. It addresses various use cases with thorough typing support. 🚀
